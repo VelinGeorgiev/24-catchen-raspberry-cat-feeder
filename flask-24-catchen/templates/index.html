@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>24 catchen</title>
+  </head>
+  <body>
+    <h1 style="font-size:3em;">24 catchen</h1>
+    <h3 style="font-size:1.8em;">Sensor distance: {{distance}}</h3>
+    <div style="font-size:3em;padding-bottom:1em;">
+     <a href='/close'>Manual close</a> |
+     <a href='/proceed'>Proceed 3 times</a> |
+    </div>
+    <img src="{{ url_for('video_feed') }}">
+  </body>
+</html>
